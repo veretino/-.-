@@ -1,0 +1,48 @@
+.AddProductBox {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    
+}
+
+.AddProductBox h1 {
+    margin-bottom: 20px;
+}
+
+.AddProductBox input {
+
+    padding: 10px;
+    background-color: rgba(124, 124, 124, 0.158);
+    outline: none;
+    border-style: none;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+
+}
+
+.AddProductBox button {
+    
+    padding: 10px;
+
+    width: auto;
+
+    font-size: 20px;
+    background-color: #58db00;
+    border-style: none;
+}
+
+.AddProductBox button:hover {
+    cursor: pointer;
+    background-color: #ffbb00;
+}
+
+.AddProductBox #addProductError {
+    color: red;
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+
+}

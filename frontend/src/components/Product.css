@@ -1,0 +1,41 @@
+.Product {
+    width: 250px;
+    height: 410px;
+    padding: 30px;
+    background-color: #5be4007a;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.Product img {
+    height: 200px;
+    margin-left: -7px;
+    margin-bottom: 10px;
+}
+
+.Product h1 {
+    font-weight: normal;
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.Product p {
+    color: black;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+.Product .buy {
+    margin-left: -8px;
+    height: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #58db00;
+
+    font-size: 16pt;
+}
+
+.Product .buy:hover {
+    cursor: pointer;
+
+}

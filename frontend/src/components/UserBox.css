@@ -1,0 +1,43 @@
+.UserBox {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+.UserBox button {
+
+    width: 150px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    background-color: #58db00;
+    padding: 10px;
+    border-style: none;
+}
+
+.out:hover {
+    color: #ff0000;
+cursor: pointer;
+}
+
+.cabinet:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 426px) {
+    .UserBox {
+        flex-direction: column;
+    }
+
+    .UserBox p {
+
+    }
+}
+
+
+
